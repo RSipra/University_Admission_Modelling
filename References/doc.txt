@@ -1,0 +1,10 @@
+[1]: "Data Home: Download the data", v.Oct 2023, College Scorecard, US Dept. of Education, (https://collegescorecard.ed.gov/data/), last viewed: 10 Nov 2023.
+
+[2]: "View Glossary", IPEDS 2023-24 Data Collection System, (https://surveys.nces.ed.gov/ipeds/public/glossary), last viewed: 10 Nov 2023.
+
+[3]: "Data Documentation", v.Oct 2023, College Scorecard, US Dept. of Education, (https://collegescorecard.ed.gov/data/documentation/), last viewed: 10 Nov 2023.
+
+[4]: Van Buuren, Stef, "Flexible Imputation of Missing Data", Second Ed. (2018), Chapman and Hall/CRC, New York, doi: https://doi.org/10.1201/9780429492259
+
+[5]: Visual Capitalist, "Visualized: These are the Top US Universities", World Economic Forum, 18 October 2022, https://www.weforum.org/agenda/2022/10/visualized-the-best-universities-united-states/
+
