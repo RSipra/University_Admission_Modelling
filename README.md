@@ -12,7 +12,8 @@ Email: siprar.jacobs@gmail.com
 5. [Dataset](#data-dictionary)
 6. [Environment](#environment)
 7. [Project Structure](#project-structure)
-8. [Installation and Usage](#installation-and-usage)
+8. [Notebooks](#notebooks)
+9. [Installation and Usage](#installation-and-usage)
 
 ## Introduction 
 
@@ -29,7 +30,7 @@ The objectives of the project have been updated to the following since Sprint-1:
 2. Create a reliable model for students to estimate earnings for given program and university.
 
 ### Highlevel methodology: 
-This will entail time series modelling of the projected earning based on selected key features. The key features will be determined through EDA and modelling iteratively through a bottom-up approach. For advanced modelling, Convolutional Nueral Networks can be considered as they are also used for time series analysis.
+Classification models will be developed to predict the median earnings of graduates 10 years after their entry into the University. Models considered are Logistic Regression, Random Forest, and neural networks.
 
 ## Data source: 
 US Department of Education, College Scorecard (https://collegescorecard.ed.gov/data/)
@@ -96,6 +97,13 @@ This project utilizes the "RIS_capstone_env" environment package created specifi
 <b>References</b>: Additional project documentation and resources.</br>
 <b>Models</b>: All the models made.</br>
 <b>Docs</b>: Additional documents required for the project.</br>
+
+## Notebooks
+
+<b>Notebook1:</b>: "01-Initial_Data_Exploration.ipynb". Initial examination, understanding, and extraction of relevant information from the raw csv files.
+<b>Notebook2:</b>: "02- Cleaning.ipynb". Create the main dataframe for analysis by merging, filtering, and cleaning the original dataset.
+<b>Notebook3:</b>: "03-Basline_LogReg_Option0.ipynb". Baseline model, logistic regression, with no imputation for NaNs in the Target column.
+<b>Notebook4:</b>: "04-LogRegOption2_RandomForest.ipynb". Update Baseline model with Random Forest imputation for the NaNs in the Target Column. Advanced modelling with Random Forests. Model evaluations and Interpretation.
 
 ## Installation and Usage
 To use this project, follow these steps:
