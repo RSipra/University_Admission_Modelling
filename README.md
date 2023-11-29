@@ -100,10 +100,13 @@ This project utilizes the "RIS_capstone_env" environment package created specifi
 
 ## Notebooks
 
-<b>Notebook1:</b>: "01-Initial_Data_Exploration.ipynb". Initial examination, understanding, and extraction of relevant information from the raw csv files.
-<b>Notebook2:</b>: "02- Cleaning.ipynb". Create the main dataframe for analysis by merging, filtering, and cleaning the original dataset.
-<b>Notebook3:</b>: "03-Basline_LogReg_Option0.ipynb". Baseline model, logistic regression, with no imputation for NaNs in the Target column.
-<b>Notebook4:</b>: "04-LogRegOption2_RandomForest.ipynb". Update Baseline model with Random Forest imputation for the NaNs in the Target Column. Advanced modelling with Random Forests. Model evaluations and Interpretation.
+<b>Notebook1:</b> "01-Initial_Data_Exploration.ipynb". Initial examination, understanding, and extraction of relevant information from the raw csv files.
+
+<b>Notebook2:</b> "02- Cleaning.ipynb". Create the main dataframe for analysis by merging, filtering, and cleaning the original dataset.
+
+<b>Notebook3:</b> "03-Basline_LogReg_Option0.ipynb". Baseline model, logistic regression, with no imputation for NaNs in the Target column.
+
+<b>Notebook4:</b> "04-LogRegOption2_RandomForest.ipynb". Update Baseline model with Random Forest imputation for the NaNs in the Target Column. Advanced modelling with Random Forests. Model evaluations and Interpretation.
 
 ## Installation and Usage
 To use this project, follow these steps:
